@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "javascripts/generatejwt.js", "use": "@now/static" },
+    { "src": "index.html", "use": "@now/static" }
+  ]
+}
